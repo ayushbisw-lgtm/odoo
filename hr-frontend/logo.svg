@@ -1,0 +1,29 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wh-grad" x1="10" y1="8" x2="110" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DA8F5"/>
+      <stop offset="1" stop-color="#3D63C9"/>
+    </linearGradient>
+    <linearGradient id="wh-grad-dark" x1="20" y1="20" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3D4770"/>
+      <stop offset="1" stop-color="#1E2440"/>
+    </linearGradient>
+  </defs>
+
+  <!-- outer hive cell -->
+  <path d="M60 6 L107 32 V88 L60 114 L13 88 V32 Z"
+        fill="url(#wh-grad-dark)" />
+
+  <!-- inner hive cell, offset to create depth -->
+  <path d="M60 24 L91.5 42.5 V78.5 L60 96 L28.5 78.5 V42.5 Z"
+        fill="none" stroke="url(#wh-grad)" stroke-width="3.5" />
+
+  <!-- three connected nodes: team / workforce -->
+  <circle cx="60" cy="46" r="7" fill="url(#wh-grad)"/>
+  <circle cx="42" cy="72" r="7" fill="url(#wh-grad)"/>
+  <circle cx="78" cy="72" r="7" fill="url(#wh-grad)"/>
+
+  <line x1="60" y1="46" x2="42" y2="72" stroke="url(#wh-grad)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="60" y1="46" x2="78" y2="72" stroke="url(#wh-grad)" stroke-width="3" stroke-linecap="round"/>
+  <line x1="42" y1="72" x2="78" y2="72" stroke="url(#wh-grad)" stroke-width="3" stroke-linecap="round"/>
+</svg>
