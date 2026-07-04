@@ -1,16 +1,17 @@
-# React + Vite
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WorkHive is an intelligent HRMS designed to bring every aspect of workforce management into one place. From employee onboarding and attendance tracking to leave management, payroll, and administrative controls, WorkHive simplifies complex HR processes through automation. Built on Odoo, it offers a secure, scalable, and user-friendly solution for organizations looking to manage their teams more efficiently.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> **One Hive. Every Employee. Every Workflow.**
+> ## Features
+- Employee Profile Management
+- Secure Authentication & Role-Based Access
+- Attendance Tracking (Check-in/Check-out)
+- Leave Request & Approval Workflow
+- Payroll Management
+- Admin & Employee Dashboards
+- ## Objectives
+- Automate HR processes
+- Improve workforce management
+- Reduce manual paperwork
+- Enhance productivity and transparency
